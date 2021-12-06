@@ -1,0 +1,49 @@
+.header {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.navbar {
+  padding: 10px 20px;
+  /* background-color: #142F43; */
+}
+.countbtn {
+  display: flex;
+  justify-content: center;
+}
+.countContainer {
+  display: flex;
+  margin-bottom: 30px;
+}
+.countContainer > * {
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.countHolder {
+  display: flex;
+  justify-content: space-between;
+}
+.countHolder > h4 {
+  margin: 0;
+}
+.pendingName {
+  color: #CD1818;
+}
+.pendingCount {
+  color: #630000;
+}
+.completedName {
+  color: #4E9F3D;
+}
+.completedCount {
+  color: #125C13;
+}
+.deletedName {
+  color: #90AACB;
+}
+.deletedCount {
+  color: #161E54;
+}
